@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+h1, h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+
+body {
+    /* background: linear-gradient(180deg, #0B1F48, #132659); */
+    background: linear-gradient(180deg, #0B1F48, #2f35cd);
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-repeat: repeat;
+}
+#login-body{
+    background: linear-gradient(180deg, #3c40b8, #3c40b8);
+}
+/* #discord-logo-login{
+    text-align: left;
+} */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    font-size: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-weight: 600;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+#login-btn {
+    padding: 7px 16px;
+    border-radius: 40px;
+    background-color: white;
+    font-weight: 700;
+    border: none;
+    line-height: 24px;
+    color: #23272a;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+#login-btn:hover {
+    color: #7289da;
+}
+#discord-logo {
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 22px;
+    color: white;
+    margin-right: 120px;
+
+}
+div[id="discord-logo"]{
+    text-align: left;
+    
+}
+#discord-logo img {
+    margin-right: 8px;
+}
+#head{
+    display: flex;
+}
+main {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-left: 15rem;
+    text-align: left;
+    color: #ffffff;
+    padding: 1.3rem ; 
+    min-height: 80vh;
+}
+
+main h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    margin: 0; /* Remove margin for alignment */
+}
+
+p {
+    margin-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.3rem;
+}
+
+#text-container {
+    flex: 1;
+    max-width: 30%; 
+}
+#download_btn{
+    border-radius: 28px;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    margin-right: 18px;
+}
+#download_btn:hover{
+    color: blue;
+    cursor: pointer;
+    transform: scale(1.01); /* Slightly grow on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Slightly deeper shadow on hover */
+}
+#open_dis_btn{
+    background-color : #2429c7;
+    color: white;
+    border-radius: 28px;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+}
+#open_dis_btn:hover{
+   cursor: pointer;
+   transform: scale(1.01); /* Slightly grow on hover */
+   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Slightly deeper shadow on hover */
+}
+
+#computer {
+    /* flex: 1; */
+    /* max-width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     padding-right: 5rem; 
+}
+
+#computer img {
+    width: 100%; 
+    max-width: 100%; 
+    opacity: 0.9;  
+    background-color: #0B1F48; /* Fallback for unsupported gradients */
+}
+#btns{
+    text-align: center;
+}
+
+#dancing_robo {
+    position: absolute;
+    top: 855px; /* Adjust the vertical position */
+    right: 370px; /* Adjust the horizontal position */
+    margin: 0; /* Remove existing margin */
+}
+.box{
+    position: relative;
+    width: 1300px;
+    height: 600px;
+    box-shadow: 0 2px 52px #452a7c1a;
+    border-radius: 60px;
+    margin: 10rem auto;
+    display: flex;
+    background: linear-gradient(180deg, #0a2893, #2329d2);
+    
+}
+
+.text-container-2 {
+    flex: 1;
+    max-width: 70%; 
+    padding: 6rem 2rem;
+}
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    margin: 0; /* Remove margin for alignment */
+}
+
+#chat{
+    flex: 1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.chat-container{
+    padding: 2rem 8rem;
+    border-radius: 60px;
+    margin: 2rem 2rem;
+    background: linear-gradient(180deg,#4c51e6, #0a2ba3 );
+}
+#hop{
+    margin: 2rem;
+    border-radius: 50px;
+}
+.hop_box{
+    position: relative;
+    width: 1300px;
+    height: 560px;
+    box-shadow: 0 2px 52px #452a7c1a;
+    border-radius: 60px;
+    margin: 10rem auto;
+    display: flex;
+    background: linear-gradient(180deg, #7087d7, #3f44cf);
+    
+}
+.scrolling-text {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    width: 100%; /* Full-width container */
+    color: white;
+    font-size: 4rem;
+    background: linear-gradient(180deg, #5b77db, #6a6dd0);
+    display: flex;
+    font-family: 'Anton', sans-serif;
+}
+
+.scrolling-text span {
+    display: inline-block;
+    padding: 0 25px; /* Space between text and images */
+    animation: scrollText 15s linear infinite; /* Ensure a uniform scroll speed */
+}
+
+@keyframes scrollText {
+    from {
+        transform: translateX(100%); /* Start off-screen on the right */
+    }
+    to {
+        transform: translateX(-100%); /* Move completely off-screen to the left */
+    }
+}
+
+#text h2{
+    text-align: center;
+    line-height: 1.6;
+    letter-spacing: 5px;
+    font-size: 4rem;
+}
+#download_btn-2{
+    background-color: #444aec;
+    border-radius: 28px;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    margin-right: 18px;
+    box-shadow: #0d0d0d;
+    color: whitesmoke;
+    text-align: center;
+}
+#download_btn-2:hover{
+    background-color: #3f44cf   ;
+}
+#btn-2{
+    text-align: center;
+    margin: 4rem;
+}
+.download-icon-1:hover {
+    filter: invert(29%) sepia(94%) saturate(3038%) hue-rotate(190deg) brightness(95%) contrast(93%);
+  }
+.download-icon-2 {
+    filter: invert(100%) brightness(100%);
+  }
+  
+  
+/* Responsive Styling */
+@media (max-width: 768px) {
+    main h1 {
+        font-size: 2rem;
+    }
+
+    main p {
+        font-size: 1rem;
+    }
+
+    #computer {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    #text-container {
+        max-width: 100%;
+    }
+}
